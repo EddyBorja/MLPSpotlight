@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8501392916B467CF00C21C32 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8501392816B467CF00C21C32 /* Default-568h@2x.png */; };
+		8501392B16B467D400C21C32 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8501392A16B467D400C21C32 /* Default@2x.png */; };
+		8572045B16B44C1D00E42F37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8572045A16B44C1D00E42F37 /* UIKit.framework */; };
+		8572045D16B44C1D00E42F37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8572045C16B44C1D00E42F37 /* Foundation.framework */; };
+		8572045F16B44C1D00E42F37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8572045E16B44C1D00E42F37 /* CoreGraphics.framework */; };
+		8572046516B44C1D00E42F37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8572046316B44C1D00E42F37 /* InfoPlist.strings */; };
+		8572046716B44C1E00E42F37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8572046616B44C1E00E42F37 /* main.m */; };
+		8572046B16B44C1E00E42F37 /* MLPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8572046A16B44C1E00E42F37 /* MLPAppDelegate.m */; };
+		8572047416B44C1E00E42F37 /* MLPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8572047316B44C1E00E42F37 /* MLPViewController.m */; };
+		8572047716B44C1E00E42F37 /* MLPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8572047516B44C1E00E42F37 /* MLPViewController.xib */; };
+		8572047F16B44C1E00E42F37 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8572047E16B44C1E00E42F37 /* SenTestingKit.framework */; };
+		8572048016B44C1E00E42F37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8572045A16B44C1D00E42F37 /* UIKit.framework */; };
+		8572048116B44C1E00E42F37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8572045C16B44C1D00E42F37 /* Foundation.framework */; };
+		8572048916B44C1E00E42F37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8572048716B44C1E00E42F37 /* InfoPlist.strings */; };
+		8572048C16B44C1E00E42F37 /* MLPSpotlightDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8572048B16B44C1E00E42F37 /* MLPSpotlightDemoTests.m */; };
+		857204BB16B4518900E42F37 /* MLPSpotlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 857204BA16B4518900E42F37 /* MLPSpotlight.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8572048216B44C1E00E42F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8572044D16B44C1D00E42F37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8572045516B44C1D00E42F37;
+			remoteInfo = MLPSpotlightDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8501392816B467CF00C21C32 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8501392A16B467D400C21C32 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8572045616B44C1D00E42F37 /* MLPSpotlightDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLPSpotlightDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8572045A16B44C1D00E42F37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8572045C16B44C1D00E42F37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8572045E16B44C1D00E42F37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8572046216B44C1D00E42F37 /* MLPSpotlightDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLPSpotlightDemo-Info.plist"; sourceTree = "<group>"; };
+		8572046416B44C1D00E42F37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8572046616B44C1E00E42F37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8572046816B44C1E00E42F37 /* MLPSpotlightDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLPSpotlightDemo-Prefix.pch"; sourceTree = "<group>"; };
+		8572046916B44C1E00E42F37 /* MLPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLPAppDelegate.h; sourceTree = "<group>"; };
+		8572046A16B44C1E00E42F37 /* MLPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLPAppDelegate.m; sourceTree = "<group>"; };
+		8572047216B44C1E00E42F37 /* MLPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLPViewController.h; sourceTree = "<group>"; };
+		8572047316B44C1E00E42F37 /* MLPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLPViewController.m; sourceTree = "<group>"; };
+		8572047616B44C1E00E42F37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MLPViewController.xib; sourceTree = "<group>"; };
+		8572047D16B44C1E00E42F37 /* MLPSpotlightDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLPSpotlightDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8572047E16B44C1E00E42F37 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8572048616B44C1E00E42F37 /* MLPSpotlightDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLPSpotlightDemoTests-Info.plist"; sourceTree = "<group>"; };
+		8572048816B44C1E00E42F37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8572048A16B44C1E00E42F37 /* MLPSpotlightDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLPSpotlightDemoTests.h; sourceTree = "<group>"; };
+		8572048B16B44C1E00E42F37 /* MLPSpotlightDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLPSpotlightDemoTests.m; sourceTree = "<group>"; };
+		857204B916B4518900E42F37 /* MLPSpotlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPSpotlight.h; sourceTree = "<group>"; };
+		857204BA16B4518900E42F37 /* MLPSpotlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPSpotlight.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8572045316B44C1D00E42F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8572045B16B44C1D00E42F37 /* UIKit.framework in Frameworks */,
+				8572045D16B44C1D00E42F37 /* Foundation.framework in Frameworks */,
+				8572045F16B44C1D00E42F37 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8572047916B44C1E00E42F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8572047F16B44C1E00E42F37 /* SenTestingKit.framework in Frameworks */,
+				8572048016B44C1E00E42F37 /* UIKit.framework in Frameworks */,
+				8572048116B44C1E00E42F37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8572044B16B44C1D00E42F37 = {
+			isa = PBXGroup;
+			children = (
+				8501392A16B467D400C21C32 /* Default@2x.png */,
+				8501392816B467CF00C21C32 /* Default-568h@2x.png */,
+				8572046016B44C1D00E42F37 /* MLPSpotlightDemo */,
+				8572048416B44C1E00E42F37 /* MLPSpotlightDemoTests */,
+				8572045916B44C1D00E42F37 /* Frameworks */,
+				8572045716B44C1D00E42F37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8572045716B44C1D00E42F37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8572045616B44C1D00E42F37 /* MLPSpotlightDemo.app */,
+				8572047D16B44C1E00E42F37 /* MLPSpotlightDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8572045916B44C1D00E42F37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8572045A16B44C1D00E42F37 /* UIKit.framework */,
+				8572045C16B44C1D00E42F37 /* Foundation.framework */,
+				8572045E16B44C1D00E42F37 /* CoreGraphics.framework */,
+				8572047E16B44C1E00E42F37 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8572046016B44C1D00E42F37 /* MLPSpotlightDemo */ = {
+			isa = PBXGroup;
+			children = (
+				857204BC16B4518D00E42F37 /* MLPSpotlight */,
+				8572046916B44C1E00E42F37 /* MLPAppDelegate.h */,
+				8572046A16B44C1E00E42F37 /* MLPAppDelegate.m */,
+				8572047216B44C1E00E42F37 /* MLPViewController.h */,
+				8572047316B44C1E00E42F37 /* MLPViewController.m */,
+				8572046116B44C1D00E42F37 /* Supporting Files */,
+			);
+			path = MLPSpotlightDemo;
+			sourceTree = "<group>";
+		};
+		8572046116B44C1D00E42F37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8572047516B44C1E00E42F37 /* MLPViewController.xib */,
+				8572046216B44C1D00E42F37 /* MLPSpotlightDemo-Info.plist */,
+				8572046316B44C1D00E42F37 /* InfoPlist.strings */,
+				8572046616B44C1E00E42F37 /* main.m */,
+				8572046816B44C1E00E42F37 /* MLPSpotlightDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8572048416B44C1E00E42F37 /* MLPSpotlightDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8572048A16B44C1E00E42F37 /* MLPSpotlightDemoTests.h */,
+				8572048B16B44C1E00E42F37 /* MLPSpotlightDemoTests.m */,
+				8572048516B44C1E00E42F37 /* Supporting Files */,
+			);
+			path = MLPSpotlightDemoTests;
+			sourceTree = "<group>";
+		};
+		8572048516B44C1E00E42F37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8572048616B44C1E00E42F37 /* MLPSpotlightDemoTests-Info.plist */,
+				8572048716B44C1E00E42F37 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		857204BC16B4518D00E42F37 /* MLPSpotlight */ = {
+			isa = PBXGroup;
+			children = (
+				857204B916B4518900E42F37 /* MLPSpotlight.h */,
+				857204BA16B4518900E42F37 /* MLPSpotlight.m */,
+			);
+			name = MLPSpotlight;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8572045516B44C1D00E42F37 /* MLPSpotlightDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8572048F16B44C1E00E42F37 /* Build configuration list for PBXNativeTarget "MLPSpotlightDemo" */;
+			buildPhases = (
+				8572045216B44C1D00E42F37 /* Sources */,
+				8572045316B44C1D00E42F37 /* Frameworks */,
+				8572045416B44C1D00E42F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLPSpotlightDemo;
+			productName = MLPSpotlightDemo;
+			productReference = 8572045616B44C1D00E42F37 /* MLPSpotlightDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8572047C16B44C1E00E42F37 /* MLPSpotlightDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8572049216B44C1E00E42F37 /* Build configuration list for PBXNativeTarget "MLPSpotlightDemoTests" */;
+			buildPhases = (
+				8572047816B44C1E00E42F37 /* Sources */,
+				8572047916B44C1E00E42F37 /* Frameworks */,
+				8572047A16B44C1E00E42F37 /* Resources */,
+				8572047B16B44C1E00E42F37 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8572048316B44C1E00E42F37 /* PBXTargetDependency */,
+			);
+			name = MLPSpotlightDemoTests;
+			productName = MLPSpotlightDemoTests;
+			productReference = 8572047D16B44C1E00E42F37 /* MLPSpotlightDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8572044D16B44C1D00E42F37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MLP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Mainloop;
+			};
+			buildConfigurationList = 8572045016B44C1D00E42F37 /* Build configuration list for PBXProject "MLPSpotlightDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8572044B16B44C1D00E42F37;
+			productRefGroup = 8572045716B44C1D00E42F37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8572045516B44C1D00E42F37 /* MLPSpotlightDemo */,
+				8572047C16B44C1E00E42F37 /* MLPSpotlightDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8572045416B44C1D00E42F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8572046516B44C1D00E42F37 /* InfoPlist.strings in Resources */,
+				8572047716B44C1E00E42F37 /* MLPViewController.xib in Resources */,
+				8501392916B467CF00C21C32 /* Default-568h@2x.png in Resources */,
+				8501392B16B467D400C21C32 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8572047A16B44C1E00E42F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8572048916B44C1E00E42F37 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8572047B16B44C1E00E42F37 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8572045216B44C1D00E42F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8572046716B44C1E00E42F37 /* main.m in Sources */,
+				8572046B16B44C1E00E42F37 /* MLPAppDelegate.m in Sources */,
+				8572047416B44C1E00E42F37 /* MLPViewController.m in Sources */,
+				857204BB16B4518900E42F37 /* MLPSpotlight.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8572047816B44C1E00E42F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8572048C16B44C1E00E42F37 /* MLPSpotlightDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8572048316B44C1E00E42F37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8572045516B44C1D00E42F37 /* MLPSpotlightDemo */;
+			targetProxy = 8572048216B44C1E00E42F37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8572046316B44C1D00E42F37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8572046416B44C1D00E42F37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8572047516B44C1E00E42F37 /* MLPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8572047616B44C1E00E42F37 /* en */,
+			);
+			name = MLPViewController.xib;
+			sourceTree = "<group>";
+		};
+		8572048716B44C1E00E42F37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8572048816B44C1E00E42F37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8572048D16B44C1E00E42F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8572048E16B44C1E00E42F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8572049016B44C1E00E42F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLPSpotlightDemo/MLPSpotlightDemo-Prefix.pch";
+				INFOPLIST_FILE = "MLPSpotlightDemo/MLPSpotlightDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8572049116B44C1E00E42F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLPSpotlightDemo/MLPSpotlightDemo-Prefix.pch";
+				INFOPLIST_FILE = "MLPSpotlightDemo/MLPSpotlightDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8572049316B44C1E00E42F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MLPSpotlightDemo.app/MLPSpotlightDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLPSpotlightDemo/MLPSpotlightDemo-Prefix.pch";
+				INFOPLIST_FILE = "MLPSpotlightDemoTests/MLPSpotlightDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8572049416B44C1E00E42F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MLPSpotlightDemo.app/MLPSpotlightDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLPSpotlightDemo/MLPSpotlightDemo-Prefix.pch";
+				INFOPLIST_FILE = "MLPSpotlightDemoTests/MLPSpotlightDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8572045016B44C1D00E42F37 /* Build configuration list for PBXProject "MLPSpotlightDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8572048D16B44C1E00E42F37 /* Debug */,
+				8572048E16B44C1E00E42F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8572048F16B44C1E00E42F37 /* Build configuration list for PBXNativeTarget "MLPSpotlightDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8572049016B44C1E00E42F37 /* Debug */,
+				8572049116B44C1E00E42F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8572049216B44C1E00E42F37 /* Build configuration list for PBXNativeTarget "MLPSpotlightDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8572049316B44C1E00E42F37 /* Debug */,
+				8572049416B44C1E00E42F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8572044D16B44C1D00E42F37 /* Project object */;
+}
