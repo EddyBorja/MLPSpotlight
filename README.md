@@ -47,5 +47,4 @@ Credits
 
 _MLPSpotlight_ was written by Eddy Borja, at Mainloop LLC.
 
-Questions about _MLPSpotlight_?
-Contact us at hello@mainloop.us
+Say hello at hello@mainloop.us
