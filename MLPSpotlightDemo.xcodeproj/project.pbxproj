@@ -22,7 +22,7 @@
 		8572048116B44C1E00E42F37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8572045C16B44C1D00E42F37 /* Foundation.framework */; };
 		8572048916B44C1E00E42F37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8572048716B44C1E00E42F37 /* InfoPlist.strings */; };
 		8572048C16B44C1E00E42F37 /* MLPSpotlightDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8572048B16B44C1E00E42F37 /* MLPSpotlightDemoTests.m */; };
-		857204BB16B4518900E42F37 /* MLPSpotlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 857204BA16B4518900E42F37 /* MLPSpotlight.m */; };
+		85EB411A16C5516C000C193E /* MLPSpotlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EB411916C5516C000C193E /* MLPSpotlight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +57,8 @@
 		8572048816B44C1E00E42F37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8572048A16B44C1E00E42F37 /* MLPSpotlightDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLPSpotlightDemoTests.h; sourceTree = "<group>"; };
 		8572048B16B44C1E00E42F37 /* MLPSpotlightDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLPSpotlightDemoTests.m; sourceTree = "<group>"; };
-		857204B916B4518900E42F37 /* MLPSpotlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPSpotlight.h; sourceTree = "<group>"; };
-		857204BA16B4518900E42F37 /* MLPSpotlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPSpotlight.m; sourceTree = "<group>"; };
+		85EB411816C5516C000C193E /* MLPSpotlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLPSpotlight.h; path = MLPSpotlight/MLPSpotlight.h; sourceTree = SOURCE_ROOT; };
+		85EB411916C5516C000C193E /* MLPSpotlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MLPSpotlight.m; path = MLPSpotlight/MLPSpotlight.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,8 +164,8 @@
 		857204BC16B4518D00E42F37 /* MLPSpotlight */ = {
 			isa = PBXGroup;
 			children = (
-				857204B916B4518900E42F37 /* MLPSpotlight.h */,
-				857204BA16B4518900E42F37 /* MLPSpotlight.m */,
+				85EB411816C5516C000C193E /* MLPSpotlight.h */,
+				85EB411916C5516C000C193E /* MLPSpotlight.m */,
 			);
 			name = MLPSpotlight;
 			sourceTree = "<group>";
@@ -283,7 +283,7 @@
 				8572046716B44C1E00E42F37 /* main.m in Sources */,
 				8572046B16B44C1E00E42F37 /* MLPAppDelegate.m in Sources */,
 				8572047416B44C1E00E42F37 /* MLPViewController.m in Sources */,
-				857204BB16B4518900E42F37 /* MLPSpotlight.m in Sources */,
+				85EB411A16C5516C000C193E /* MLPSpotlight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
