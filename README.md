@@ -12,6 +12,8 @@ _MLPSpotlight_ is a _UIView_ subclass created to display a spotlight effect over
 Usage
 ---------
 
+First, add the _MLPSpotlight_ header and implementation file to your project. (.h & .m)
+
 The easiest way to add a spotlight to a view is with the class method:
 
 `+ (id)addSpotlightInView:(UIView *)view atPoint:(CGPoint)centerPoint;`
