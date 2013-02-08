@@ -13,17 +13,20 @@ Usage
 ---------
 
 The easiest way to add a spotlight to a view is with the class method:
-\+ (id)addSpotlightInView:(UIView *)view atPoint:(CGPoint)centerPoint;
+
+`+ (id)addSpotlightInView:(UIView *)view atPoint:(CGPoint)centerPoint;`
 
 You can remove the spotlight later by calling:
-\+ (id)removeSpotlightsInView:(UIView *)view;
+
+`+ (id)removeSpotlightsInView:(UIView *)view;`
 
 For more advanced options, see the header file of _MLPSpotlight_.
 
 If you want a custom gradient for the spotlight you can pass your own _CGGradientRef_ to the "spotlightGradientRef" property of a spotlight.
 
 You can access a spotlight in a view through this method which returns an array with the existing spotlights in a view.
-\+ (NSArray *)spotlightsInView:(UIView *)view;
+
+`+ (NSArray *)spotlightsInView:(UIView *)view;`
 
 Known Issues
 ---------
