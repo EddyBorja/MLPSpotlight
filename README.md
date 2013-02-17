@@ -30,9 +30,6 @@ You can access a spotlight in a view through this method which returns an array 
 
 `+ (NSArray *)spotlightsInView:(UIView *)view;`
 
-Known Issues
----------
-+ Rotating while a spotlight is active is still not properly supported. You may have to recreate the spotlight after the rotation completes. 
 
 License
 --------
