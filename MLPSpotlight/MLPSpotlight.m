@@ -37,7 +37,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 {
     MLPSpotlight *newSpotlight = [[self class] spotlightWithFrame:view.frame
                                              withSpotlightAtPoint:centerPoint];
-    
+    newSpotlight.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
+    newSpotlight.contentMode = UIViewContentModeRedraw;
     [view addSubview:newSpotlight];
     
     [newSpotlight setAlpha:0];
