@@ -16,6 +16,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @interface MLPSpotlight : UIView
 
+@property (assign) NSTimeInterval animationDuration;
 @property (assign) CGPoint spotlightCenter;
 @property (nonatomic) CGGradientRef spotlightGradientRef;
 @property (assign) float spotlightStartRadius;
@@ -23,7 +24,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 + (id)addSpotlightInView:(UIView *)view atPoint:(CGPoint)centerPoint;
 
-+ (id)addSpotlightInView:(UIView *)view atPoint:(CGPoint)centerPoint withDuration:(CGFloat)duration;
++ (id)addSpotlightInView:(UIView *)view atPoint:(CGPoint)centerPoint withDuration:(NSTimeInterval)duration;
 
 + (NSArray *)spotlightsInView:(UIView *)view;
 
