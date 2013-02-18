@@ -14,7 +14,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 #import "MLPSpotlight.h"
 
-
+#define kDEFAULT_DURATION 0.3
 
 @implementation MLPSpotlight
 
@@ -30,19 +30,21 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 + (id)addSpotlightInView:(UIView *)view atPoint:(CGPoint)centerPoint
 {
-    return [[self class] addSpotlightInView:view atPoint:centerPoint withDuration:0.1];
+    return [[self class] addSpotlightInView:view atPoint:centerPoint withDuration:kDEFAULT_DURATION];
 }
 
-+ (id)addSpotlightInView:(UIView *)view atPoint:(CGPoint)centerPoint withDuration:(CGFloat)duration
++ (id)addSpotlightInView:(UIView *)view atPoint:(CGPoint)centerPoint withDuration:(NSTimeInterval)duration
 {
+
     MLPSpotlight *newSpotlight = [[self class] spotlightWithFrame:view.frame
                                              withSpotlightAtPoint:centerPoint];
     newSpotlight.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
     newSpotlight.contentMode = UIViewContentModeRedraw;
+    newSpotlight.animationDuration = duration;
     [view addSubview:newSpotlight];
     
     [newSpotlight setAlpha:0];
-    [UIView animateWithDuration:0.1
+    [UIView animateWithDuration:duration
                           delay:0
                         options:UIViewAnimationCurveEaseOut|
                             UIViewAnimationOptionBeginFromCurrentState
@@ -72,7 +74,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     NSArray *spotlightsInView = [[self class] spotlightsInView:view];
     for(MLPSpotlight *spotlight in spotlightsInView){
         if([spotlight isKindOfClass:[self class]]){
-            [UIView animateWithDuration:0.1
+            [UIView animateWithDuration:spotlight.animationDuration
                                   delay:0
                                 options:UIViewAnimationCurveEaseOut|UIViewAnimationOptionBeginFromCurrentState
                              animations:^{
@@ -105,6 +107,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
         // Initialization code
         [self setUserInteractionEnabled:NO];
         [self setSpotlightCenter:centerPoint];
+        [self setAnimationDuration:kDEFAULT_DURATION];
         [self setBackgroundColor:[UIColor clearColor]];
         
         CGGradientRef defaultGradientRef = [[self class] newSpotlightGradient];
