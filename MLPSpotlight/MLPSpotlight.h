@@ -22,15 +22,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 @property (assign) float spotlightStartRadius;
 @property (assign) float spotlightEndRadius;
 
-+ (id)addSpotlightInView:(UIView *)view atPoint:(CGPoint)centerPoint;
++ (instancetype)addSpotlightInView:(UIView *)view atPoint:(CGPoint)centerPoint;
 
-+ (id)addSpotlightInView:(UIView *)view atPoint:(CGPoint)centerPoint withDuration:(NSTimeInterval)duration;
++ (instancetype)addSpotlightInView:(UIView *)view atPoint:(CGPoint)centerPoint withDuration:(NSTimeInterval)duration;
 
 + (NSArray *)spotlightsInView:(UIView *)view;
 
 + (void)removeSpotlightsInView:(UIView *)view;
 
-+ (id)spotlightWithFrame:(CGRect)frame withSpotlightAtPoint:(CGPoint)centerPoint;
++ (instancetype)spotlightWithFrame:(CGRect)frame withSpotlightAtPoint:(CGPoint)centerPoint;
 
 - (id)initWithFrame:(CGRect)frame withSpotlightAtPoint:(CGPoint)centerPoint;
 
