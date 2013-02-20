@@ -20,7 +20,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 #pragma mark - Static Methods
 
-+ (id)spotlightWithFrame:(CGRect)frame withSpotlightAtPoint:(CGPoint)centerPoint
++ (instancetype)spotlightWithFrame:(CGRect)frame withSpotlightAtPoint:(CGPoint)centerPoint
 {
     MLPSpotlight *newSpotlight = [[MLPSpotlight alloc] initWithFrame:frame
                                                 withSpotlightAtPoint:centerPoint];
@@ -28,12 +28,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 
-+ (id)addSpotlightInView:(UIView *)view atPoint:(CGPoint)centerPoint
++ (instancetype)addSpotlightInView:(UIView *)view atPoint:(CGPoint)centerPoint
 {
     return [[self class] addSpotlightInView:view atPoint:centerPoint withDuration:kDEFAULT_DURATION];
 }
 
-+ (id)addSpotlightInView:(UIView *)view atPoint:(CGPoint)centerPoint withDuration:(NSTimeInterval)duration
++ (instancetype)addSpotlightInView:(UIView *)view atPoint:(CGPoint)centerPoint withDuration:(NSTimeInterval)duration
 {
 
     MLPSpotlight *newSpotlight = [[self class] spotlightWithFrame:view.frame
