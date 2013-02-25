@@ -36,13 +36,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 + (id)addSpotlightInView:(UIView *)view atPoint:(CGPoint)centerPoint withDuration:(NSTimeInterval)duration
 {
 
-    MLPSpotlight *newSpotlight = [[self class] spotlightWithFrame:view.frame
+    MLPSpotlight *newSpotlight = [[self class] spotlightWithFrame:view.bounds
                                              withSpotlightAtPoint:centerPoint];
-    newSpotlight.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
-    newSpotlight.contentMode = UIViewContentModeRedraw;
-    newSpotlight.animationDuration = duration;
+    [newSpotlight setAnimationDuration:duration];
     [view addSubview:newSpotlight];
-    
     [newSpotlight setAlpha:0];
     [UIView animateWithDuration:duration
                           delay:0
@@ -105,6 +102,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
+        [self setAutoresizingMask:UIViewAutoresizingFlexibleWidth |
+                                  UIViewAutoresizingFlexibleHeight];
+        
+        [self setContentMode:UIViewContentModeRedraw];
         [self setUserInteractionEnabled:NO];
         [self setSpotlightCenter:centerPoint];
         [self setAnimationDuration:kDEFAULT_DURATION];
