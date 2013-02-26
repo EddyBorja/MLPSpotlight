@@ -30,6 +30,15 @@ You can access a spotlight in a view through this method which returns an array 
 
 `+ (NSArray *)spotlightsInView:(UIView *)view;`
 
+Cocoapods
+-------
+
+CocoaPods are the best way to manage library dependencies in Objective-C projects.
+Learn more at http://cocoapods.org
+
+Add this to your podfile to add the MLPSpotlight to your project.
+`pod 'MLPSpotlight',       '~> 1.2'`
+
 
 License
 --------
