@@ -40,6 +40,11 @@ Add this to your podfile to add the MLPSpotlight to your project.
 `pod 'MLPSpotlight',       '~> 1.2'`
 
 
+What to Expect in Future Updates
+-------
+
++ _Movable Spotlight_: Some people have requested the ability to move a spotlight after it has been rendered.
+
 License
 --------
 _MLPSpotlight_ uses the MIT License:
