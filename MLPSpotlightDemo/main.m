@@ -25,7 +25,6 @@ int main(int argc, char *argv[])
                                              encoding:NSUTF8StringEncoding];
         [GAI sharedInstance].trackUncaughtExceptions = YES;
         [GAI sharedInstance].dispatchInterval = 0;
-        [GAI sharedInstance].debug = YES;
         [[GAI sharedInstance] trackerWithTrackingId:@"UA-41220983-1"];
         [[GAI sharedInstance].defaultTracker sendEventWithCategory:model
                                                         withAction:@"Demo Launch"
