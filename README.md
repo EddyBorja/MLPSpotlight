@@ -64,3 +64,14 @@ Credits
 _MLPSpotlight_ was written by Eddy Borja, at Mainloop LLC.
 
 Say hello at hello@mainloop.us
+
+
+More Stuff
+---------
+Be sure to check out these other libraries:
+
+[MLPAutoCompleteTextField](https://github.com/EddyBorja/MLPAutoCompleteTextField)<br />
+[UIColor+MLPFlatColors](https://github.com/EddyBorja/UIColor-MLPFlatColors)<br />
+[MLPAccessoryBadge](https://github.com/EddyBorja/MLPAccessoryBadge)<br />
+
+
