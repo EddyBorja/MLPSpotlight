@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8501392916B467CF00C21C32 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8501392816B467CF00C21C32 /* Default-568h@2x.png */; };
-		8501392B16B467D400C21C32 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8501392A16B467D400C21C32 /* Default@2x.png */; };
 		8572045B16B44C1D00E42F37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8572045A16B44C1D00E42F37 /* UIKit.framework */; };
 		8572045D16B44C1D00E42F37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8572045C16B44C1D00E42F37 /* Foundation.framework */; };
 		8572045F16B44C1D00E42F37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8572045E16B44C1D00E42F37 /* CoreGraphics.framework */; };
@@ -27,6 +26,8 @@
 		85E716D81752F79800A992A0 /* libGoogleAnalytics_debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E716D61752F79800A992A0 /* libGoogleAnalytics_debug.a */; };
 		85E716D91752F79800A992A0 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E716D71752F79800A992A0 /* libGoogleAnalytics.a */; };
 		85EB411A16C5516C000C193E /* MLPSpotlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EB411916C5516C000C193E /* MLPSpotlight.m */; };
+		85FC3CB617CE2404002A80BF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 85FC3CB517CE2404002A80BF /* Default.png */; };
+		85FC3CBA17CE294C002A80BF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 85FC3CB917CE294B002A80BF /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,6 @@
 
 /* Begin PBXFileReference section */
 		8501392816B467CF00C21C32 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		8501392A16B467D400C21C32 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8572045616B44C1D00E42F37 /* MLPSpotlightDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLPSpotlightDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8572045A16B44C1D00E42F37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8572045C16B44C1D00E42F37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -72,6 +72,8 @@
 		85E716D71752F79800A992A0 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = GoogleAnalytics/libGoogleAnalytics.a; sourceTree = "<group>"; };
 		85EB411816C5516C000C193E /* MLPSpotlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLPSpotlight.h; path = MLPSpotlight/MLPSpotlight.h; sourceTree = SOURCE_ROOT; };
 		85EB411916C5516C000C193E /* MLPSpotlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MLPSpotlight.m; path = MLPSpotlight/MLPSpotlight.m; sourceTree = SOURCE_ROOT; };
+		85FC3CB517CE2404002A80BF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		85FC3CB917CE294B002A80BF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +107,8 @@
 		8572044B16B44C1D00E42F37 = {
 			isa = PBXGroup;
 			children = (
-				8501392A16B467D400C21C32 /* Default@2x.png */,
+				85FC3CB917CE294B002A80BF /* icon.png */,
+				85FC3CB517CE2404002A80BF /* Default.png */,
 				8501392816B467CF00C21C32 /* Default-568h@2x.png */,
 				8572046016B44C1D00E42F37 /* MLPSpotlightDemo */,
 				8572048416B44C1E00E42F37 /* MLPSpotlightDemoTests */,
@@ -277,9 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8572046516B44C1D00E42F37 /* InfoPlist.strings in Resources */,
+				85FC3CBA17CE294C002A80BF /* icon.png in Resources */,
+				85FC3CB617CE2404002A80BF /* Default.png in Resources */,
 				8572047716B44C1E00E42F37 /* MLPViewController.xib in Resources */,
 				8501392916B467CF00C21C32 /* Default-568h@2x.png in Resources */,
-				8501392B16B467D400C21C32 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
