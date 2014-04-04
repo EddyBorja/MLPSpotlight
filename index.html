@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>MLPSpotlight by EddyBorja</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>MLPSpotlight</h1>
+          <h2>A UIView subclass that draws a spotlight effect.</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/EddyBorja/MLPSpotlight/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/EddyBorja/MLPSpotlight/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/EddyBorja/MLPSpotlight" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <blockquote>
+<p>Calling a user's attention to a certain point on a screen should be simple, so we've created this <em>MLPSpotlight</em> class to make it quick and easy to insert and remove a spotlight within a view. </p>
+</blockquote>
+
+<p><img src="/spotlightDemo.png" alt="Screenshot" title="Screenshot"></p>
+
+<h2>
+<a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>About</h2>
+
+<p><em>MLPSpotlight</em> is a <em>UIView</em> subclass created to display a spotlight effect over a specific point on the screen in a convenient manner.</p>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>First, add the <em>MLPSpotlight</em> header and implementation file to your project. (.h &amp; .m)</p>
+
+<p>The easiest way to add a spotlight to a view is with the class method:</p>
+
+<p><code>+ (id)addSpotlightInView:(UIView *)view atPoint:(CGPoint)centerPoint;</code></p>
+
+<p>You can remove the spotlight later by calling:</p>
+
+<p><code>+ (id)removeSpotlightsInView:(UIView *)view;</code></p>
+
+<p>For more advanced options, see the header file of <em>MLPSpotlight</em>.</p>
+
+<p>If you want a custom gradient for the spotlight you can pass your own <em>CGGradientRef</em> to the "spotlightGradientRef" property of a spotlight.</p>
+
+<p>You can access a spotlight in a view through this method which returns an array with the existing spotlights in a view.</p>
+
+<p><code>+ (NSArray *)spotlightsInView:(UIView *)view;</code></p>
+
+<h2>
+<a name="cocoapods" class="anchor" href="#cocoapods"><span class="octicon octicon-link"></span></a>Cocoapods</h2>
+
+<p>CocoaPods are the best way to manage library dependencies in Objective-C projects.
+Learn more at <a href="http://cocoapods.org">http://cocoapods.org</a></p>
+
+<p>Add this to your podfile to add the MLPSpotlight to your project.
+<code>pod 'MLPSpotlight',       '~&gt; 1.2'</code></p>
+
+<h2>
+<a name="what-to-expect-in-future-updates" class="anchor" href="#what-to-expect-in-future-updates"><span class="octicon octicon-link"></span></a>What to Expect in Future Updates</h2>
+
+<ul>
+<li>
+<em>Movable Spotlight</em>: Some people have requested the ability to move a spotlight after it has been rendered.</li>
+</ul><h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p><em>MLPSpotlight</em> uses the MIT License:</p>
+
+<blockquote>
+<p>Copyright (c) 2013, Mainloop LLC</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+</blockquote>
+
+<h2>
+<a name="credits" class="anchor" href="#credits"><span class="octicon octicon-link"></span></a>Credits</h2>
+
+<p><em>MLPSpotlight</em> was written by Eddy Borja, at Mainloop LLC.</p>
+
+<p>Say hello at <a href="mailto:hello@mainloop.us">hello@mainloop.us</a></p>
+
+<h2>
+<a name="more-stuff" class="anchor" href="#more-stuff"><span class="octicon octicon-link"></span></a>More Stuff</h2>
+
+<p>Be sure to check out these other libraries:</p>
+
+<p><a href="https://github.com/EddyBorja/MLPAutoCompleteTextField">MLPAutoCompleteTextField</a><br><a href="https://github.com/EddyBorja/UIColor-MLPFlatColors">UIColor+MLPFlatColors</a><br><a href="https://github.com/EddyBorja/MLPAccessoryBadge">MLPAccessoryBadge</a><br></p>
+        </section>
+
+        <footer>
+          MLPSpotlight is maintained by <a href="https://github.com/EddyBorja">EddyBorja</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+                  <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-41220983-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+      </div>
+    </div>
+  </body>
+</html>
