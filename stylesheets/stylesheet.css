@@ -34,6 +34,7 @@ ol, ul {
 	list-style: none;
 }
 blockquote, q {
+	font-size: 0.5em;
 	quotes: none;
 }
 blockquote:before, blockquote:after,
