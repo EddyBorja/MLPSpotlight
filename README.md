@@ -76,5 +76,3 @@ Be sure to check out these other libraries:
 [EBPhotoPages Gallery](https://github.com/EddyBorja/EBPhotoPages)<br />
 
 
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/cf58d5e57fc5ae05da2630c81dc9e671 "githalytics.com")](http://githalytics.com/EddyBorja/MLPSpotlight)
-
