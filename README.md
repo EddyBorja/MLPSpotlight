@@ -30,14 +30,18 @@ You can access a spotlight in a view through this method which returns an array 
 
 `+ (NSArray *)spotlightsInView:(UIView *)view;`
 
-Cocoapods
+Carthage
 -------
+Carthage is the simplest way to include frameworks in your Cocoa applications.
 
-CocoaPods are the best way to manage library dependencies in Objective-C projects.
-Learn more at http://cocoapods.org
+Learn more at https://github.com/Carthage/Carthage
 
-Add this to your podfile to add the MLPSpotlight to your project.
-`pod 'MLPSpotlight',       '~> 1.2'`
+To use the latest version of this library, add this to your Cartfile.
+```
+# Use the latest version
+github "EddyBorja/MLPSpotlight"
+```
+
 
 
 What to Expect in Future Updates
