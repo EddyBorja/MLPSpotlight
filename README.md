@@ -30,6 +30,9 @@ You can access a spotlight in a view through this method which returns an array 
 
 `+ (NSArray *)spotlightsInView:(UIView *)view;`
 
+<!---
+Remove comment when Carthage support is in.
+
 Carthage
 -------
 Carthage is the simplest way to include frameworks in your Cocoa applications.
@@ -41,7 +44,7 @@ To use the latest version of this library, add this to your Cartfile.
 # Use the latest version
 github "EddyBorja/MLPSpotlight"
 ```
-
+-->
 
 
 What to Expect in Future Updates
@@ -69,6 +72,7 @@ _MLPSpotlight_ was written by Eddy Borja, at Mainloop LLC.
 
 Say hello at hello@mainloop.us
 
+These days I'm unable to continue working on this project due to other obligations, but I'm always open to pull requests. 
 
 More Stuff
 ---------
